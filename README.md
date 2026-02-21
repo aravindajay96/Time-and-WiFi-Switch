@@ -119,12 +119,12 @@ Disconnect power before servicing
 
 ## 📌 Future Improvements
 
-Multiple relay control
+* Multiple relay control
 
-NTP time synchronization
+* NTP time synchronization
 
-Mobile-optimized UI
+* Mobile-optimized UI
 
-EEPROM schedule storage
+* EEPROM schedule storage
 
-MQTT / IoT integration
+* MQTT / IoT integration
