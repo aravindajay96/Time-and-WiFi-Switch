@@ -7,22 +7,23 @@ It allows users to control electrical loads through a web interface with both au
 ## 📷 Project Overview
 
 🌐 Web Control Interface
-<p align="center"> <img src="Web_Page.jpg" width="350"> </p>
+<p align="center"> <img src="Web_Page.jpg" width="250"> </p>
 The ESP32 hosts a built-in web server that allows you to:
 
-View current time
 
-Check relay status (ON / OFF)
-
-Manually turn relay ON
-
-Manually turn relay OFF
-
-Set ON time (HHMM format)
-
-Set OFF time (HHMM format)
-
-Save schedule settings
+    View current time
+    
+    Check relay status (ON / OFF)
+    
+    Manually turn relay ON
+    
+    Manually turn relay OFF
+    
+    Set ON time (HHMM format)
+    
+    Set OFF time (HHMM format)
+    
+    Save schedule settings
 
 Example time format:
 
