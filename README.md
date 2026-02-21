@@ -8,22 +8,22 @@ It allows users to control electrical loads through a web interface with both au
 
 🌐 Web Control Interface
 <p align="center"> <img src="Web_Page.jpg" width="250"> </p>
+
 The ESP32 hosts a built-in web server that allows you to:
 
-
-    View current time
+View current time
     
-    Check relay status (ON / OFF)
+Check relay status (ON / OFF)
     
-    Manually turn relay ON
+Manually turn relay ON
     
-    Manually turn relay OFF
+Manually turn relay OFF
     
-    Set ON time (HHMM format)
+Set ON time (HHMM format)
     
-    Set OFF time (HHMM format)
+Set OFF time (HHMM format)
     
-    Save schedule settings
+Save schedule settings
 
 Example time format:
 
@@ -34,6 +34,7 @@ Example time format:
 ## 🔧 Hardware Implementation
 <p align="center"> <img src="Hardware_prototype.jpg" width="500"> </p>
 Main Components Used
+
 
 ESP32 Development Board – Main controller with WiFi
 
@@ -93,10 +94,15 @@ Automatic schedule runs when manual override is inactive
 ## 🚀 How to Use
 
 Power ON the system
+
 Connect to ESP32 WiFi
+
 Open browser and enter IP address
+
 Set ON and OFF time
+
 Click Save
+
 Use Manual ON / OFF when needed
 
 ## 🔌 Safety Notice
@@ -104,14 +110,21 @@ Use Manual ON / OFF when needed
 ⚠️ This system switches high-voltage loads.
 
 Ensure proper insulation
+
 Use correct relay rating
+
 Secure all wiring
+
 Disconnect power before servicing
 
 ## 📌 Future Improvements
 
 Multiple relay control
+
 NTP time synchronization
+
 Mobile-optimized UI
+
 EEPROM schedule storage
+
 MQTT / IoT integration
