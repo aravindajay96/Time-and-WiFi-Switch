@@ -5,9 +5,9 @@ It allows users to control electrical loads through a web interface with both au
 
 ---
 ## 📷 Project Overview
+
 🌐 Web Control Interface
 <p align="center"> <img src="Web_Page.jpg" width="350"> </p>
-
 The ESP32 hosts a built-in web server that allows you to:
 
 View current time
@@ -26,9 +26,9 @@ Save schedule settings
 
 Example time format:
 
-0645 → 6:45 AM
-
-2200 → 10:00 PM
+    0645 → 6:45 AM
+    
+    2200 → 10:00 PM
 
 ## 🔧 Hardware Implementation
 <p align="center"> <img src="Hardware_prototype.jpg" width="500"> </p>
@@ -53,33 +53,33 @@ Plastic enclosure box
 ## ⚙️ Features
 ✅ Automatic Scheduling
 
-Relay turns ON at preset ON time
-
-Relay turns OFF at preset OFF time
-
-Same-day schedule (no overnight intervals)
+  Relay turns ON at preset ON time
+  
+  Relay turns OFF at preset OFF time
+  
+  Same-day schedule (no overnight intervals)
 
 ✅ Manual Override
 
-Manual ON works at any time
-
-Manual OFF immediately turns relay OFF
-
-If manually turned ON during schedule, relay still turns OFF automatically at OFF time
+  Manual ON works at any time
+  
+  Manual OFF immediately turns relay OFF
+  
+  If manually turned ON during schedule, relay still turns OFF automatically at OFF time
 
 ✅ Web-Based Control
 
-Works over local WiFi network
-
-No cloud required
-
-Access via ESP32 IP address (e.g., 192.168.4.1)
+  Works over local WiFi network
+  
+  No cloud required
+  
+  Access via ESP32 IP address (e.g., 192.168.4.1)
 
 ✅ Reliable Timekeeping
 
-DS3231 RTC ensures accurate time
-
-Maintains time during power loss
+  DS3231 RTC ensures accurate time
+  
+  Maintains time during power loss
 
 ## 🧠 Control Logic Priority
 
@@ -92,15 +92,10 @@ Automatic schedule runs when manual override is inactive
 ## 🚀 How to Use
 
 Power ON the system
-
 Connect to ESP32 WiFi
-
 Open browser and enter IP address
-
 Set ON and OFF time
-
 Click Save
-
 Use Manual ON / OFF when needed
 
 ## 🔌 Safety Notice
@@ -108,21 +103,14 @@ Use Manual ON / OFF when needed
 ⚠️ This system switches high-voltage loads.
 
 Ensure proper insulation
-
 Use correct relay rating
-
 Secure all wiring
-
 Disconnect power before servicing
 
 ## 📌 Future Improvements
 
 Multiple relay control
-
 NTP time synchronization
-
 Mobile-optimized UI
-
 EEPROM schedule storage
-
 MQTT / IoT integration
