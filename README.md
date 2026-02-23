@@ -55,33 +55,33 @@ Plastic enclosure box
 ## ⚙️ Features
 ✅ Automatic Scheduling
 
-  Relay turns ON at preset ON time
+  * Relay turns ON at preset ON time
   
-  Relay turns OFF at preset OFF time
+  * Relay turns OFF at preset OFF time
   
-  Same-day schedule (no overnight intervals)
+  * Same-day schedule (no overnight intervals)
 
 ✅ Manual Override
 
-  Manual ON works at any time
+  * Manual ON works at any time
   
-  Manual OFF immediately turns relay OFF
+  * Manual OFF immediately turns relay OFF
   
-  If manually turned ON during schedule, relay still turns OFF automatically at OFF time
+  * If manually turned ON during schedule, relay still turns OFF automatically at OFF time
 
 ✅ Web-Based Control
 
-  Works over local WiFi network
+  * Works over local WiFi network
   
-  No cloud required
+  * No cloud required
   
-  Access via ESP32 IP address (e.g., 192.168.4.1)
+  * Access via ESP32 IP address (e.g., 192.168.4.1)
 
 ✅ Reliable Timekeeping
 
-  DS3231 RTC ensures accurate time
+  * DS3231 RTC ensures accurate time
   
-  Maintains time during power loss
+  * Maintains time during power loss
 
 ## 🧠 Control Logic Priority
 
@@ -91,31 +91,52 @@ Manual override allowed anytime
 
 Automatic schedule runs when manual override is inactive
 
+## 📡 WiFi Setup (Access Point Mode)
+<p align="center"> <img src="Wifi_connectivity.jpg" width="350"> </p>
+
+The ESP32 runs in Access Point (AP) mode.
+
+When powered ON:
+
+* The device creates a WiFi network named ESP32_Relay
+
+* Connect to this network using your phone or computer
+
+* No internet connection is required
+
+* After connecting, open a browser and go to:
+
+        http://192.168.4.1
+
+This will open the relay control web interface.
+
+Note: The “No Internet” message is normal because the ESP32 acts as a local server only.
+
 ## 🚀 How to Use
 
-Power ON the system
+* Power ON the system
 
-Connect to ESP32 WiFi
+* Connect to ESP32 WiFi
 
-Open browser and enter IP address
+* Open browser and enter IP address
 
-Set ON and OFF time
+* Set ON and OFF time
 
-Click Save
+* Click Save
 
-Use Manual ON / OFF when needed
+* Use Manual ON / OFF when needed
 
 ## 🔌 Safety Notice
 
 ⚠️ This system switches high-voltage loads.
 
-Ensure proper insulation
+* Ensure proper insulation
 
-Use correct relay rating
+* Use correct relay rating
 
-Secure all wiring
+* Secure all wiring
 
-Disconnect power before servicing
+* Disconnect power before servicing
 
 ## 📌 Future Improvements
 
