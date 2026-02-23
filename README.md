@@ -11,19 +11,19 @@ It allows users to control electrical loads through a web interface with both au
 
 The ESP32 hosts a built-in web server that allows you to:
 
-View current time
+* View current time
     
-Check relay status (ON / OFF)
+* Check relay status (ON / OFF)
     
-Manually turn relay ON
+* Manually turn relay ON
     
-Manually turn relay OFF
+* Manually turn relay OFF
     
-Set ON time (HHMM format)
+* Set ON time (HHMM format)
     
-Set OFF time (HHMM format)
+* Set OFF time (HHMM format)
     
-Save schedule settings
+* Save schedule settings
 
 Example time format:
 
@@ -36,21 +36,21 @@ Example time format:
 Main Components Used
 
 
-ESP32 Development Board – Main controller with WiFi
+* ESP32 Development Board – Main controller with WiFi
 
-DS3231 RTC Module – Real-time clock with backup battery
+* DS3231 RTC Module – Real-time clock with backup battery
 
-Dual 5V Relay Module – Controls external loads
+* Dual 5V Relay Module – Controls external loads
 
-DC-DC Buck Converter – Voltage regulation
+* DC-DC Buck Converter – Voltage regulation
 
-5V SMPS Power Supply – AC to DC conversion
+* 5V SMPS Power Supply – AC to DC conversion
 
-CR2032 Battery – RTC backup
+* CR2032 Battery – RTC backup
 
-Perfboard custom wiring
+* Perfboard custom wiring
 
-Plastic enclosure box
+* Plastic enclosure box
 
 ## ⚙️ Features
 ✅ Automatic Scheduling
